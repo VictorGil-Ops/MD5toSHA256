@@ -52,6 +52,10 @@ function HashSha256 {
   # Format Get-Date = 2020-05-05T19:06:37.0639256+02:00 
   $SaltTimeStamp = Get-Date -Format o
   
+  #$SaltVariable = "mail@domain.com"
+  #SaltVariable = "userID"
+  #$SaltFijo = "1234abc"
+  
   $hasher = [System.Security.Cryptography.HashAlgorithm]::Create('sha256')
   $hash = $hasher.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($ClearString+$SaltTimeStamp))
 
