@@ -37,8 +37,8 @@ using namespace System
 
 # PATHS
 $path1 = "$env:HOMEPATH\Desktop\passwords.md5"
-$path2 = "$env:HOMEPATH\Desktop\passwords.txt"
-$path3 = "$env:HOMEPATH\Desktop\passwords_new.txt"
+$path2 = "$env:HOMEPATH\Desktop\plain.txt"
+$path3 = "$env:HOMEPATH\Desktop\new_passwords.txt"
 
 
 function HashSha256 {
