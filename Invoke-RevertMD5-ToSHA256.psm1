@@ -5,7 +5,7 @@ using namespace System
   
   Descarga un fichero con contraseñas 'hasheadas' en MD5 de (https://raw.githubusercontent.com/jaesga/master-ciberseguridad-web-colaborativa/master/PASSWORDS.md)
   ,lo guarda en un fichero (path1), descifra cada hash utilizando la API de (https://hashtoolkit.com/decrypt-hash/) dejando las que no encuente en blanco.
-  Por último cifra cada contraseÃ±a en claro con SHA256 utilizando como 'SALT' un Timestamp. 
+  Por último cifra cada contraseñaa en claro con SHA256 utilizando como 'SALT' un Timestamp. 
 
 .Example
   
